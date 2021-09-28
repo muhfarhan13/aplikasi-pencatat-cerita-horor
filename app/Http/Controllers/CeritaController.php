@@ -39,9 +39,4 @@ class CeritaController extends Controller
         $ceritas = Cerita::where('id', $id)->first();
         return view('bacacerita', compact('ceritas'));
     }
-
-    public function link($length = 10)
-    {
-        
-    }
 }
